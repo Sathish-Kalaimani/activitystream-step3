@@ -60,7 +60,7 @@ public class CircleController {
 	 * This handler method should return any one of the status messages basis on different
 	 * situations:
 	 * 1. 201(CREATED - In case of successful creation of the circle
-	 * 2. 209(CONFLICT) - In case of duplicate circle ID
+	 * 2. 409(CONFLICT) - In case of duplicate circle ID
 	 * 3. 401(UNAUTHORIZED) - If the user is not logged in
 	 * 
 	 * This handler method should map to the URL "/api/circle" using HTTP POST method". 
