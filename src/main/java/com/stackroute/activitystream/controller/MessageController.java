@@ -115,7 +115,7 @@ public class MessageController {
 	 * 2. 401(UNAUTHORIZED) - If the user is not logged in
 	 * 
 	 * This handler method should map to the URL 
-	 * "/api/message/getMessagesByUser/{circleName}/{pageNumber}" 
+	 * "/api/message/getMessagesByCircle/{circleName}/{pageNumber}" 
 	 * using HTTP GET method"
 	 * where "circleName" should be replaced by a valid user name without {}
 	 * and "pageNumber" should be replaced by the numeric page number that we are looking for without {}
